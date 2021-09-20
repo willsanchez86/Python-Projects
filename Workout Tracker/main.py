@@ -7,9 +7,9 @@ TIME = datetime.now().strftime("%H:%M:%S")
 
 
 APP_ID = "3a7fe173"
-API_Key = "98b1a7a7a1b88c94bf986821bec25af1"
+API_Key = "**********"
 
-BEARER_TOKEN = 'ounkejnrfaiygs,kjdanf'
+BEARER_TOKEN = '**********'
 
 exercise = input('Tell me what exercises you did: ')
 
@@ -45,7 +45,7 @@ sheety_header = {
     "Authorization": f"Bearer {BEARER_TOKEN}",
 	"Content-Type": "application/json",
 }
-sheety_endpoint = 'https://api.sheety.co/0911b0d267ba5a15508f9429d802e2bd/workoutTracker/sheet1'
+sheety_endpoint = 'https://api.sheety.co/****************/workoutTracker/sheet1'
 
 post = requests.post(url=sheety_endpoint, json=sheet_inputs, headers=sheety_header)
 print(post.text)
