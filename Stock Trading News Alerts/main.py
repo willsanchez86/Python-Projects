@@ -22,7 +22,7 @@ stock_parameters = {
     'function': 'TIME_SERIES_DAILY',
     'symbol': STOCK,
     'outputsize': 'compact',
-    'apikey': 'Z5F9IEKTUTH555Q3',
+    'apikey': '************',
 }
 
 response = requests.get(url="https://www.alphavantage.co/query", params=stock_parameters)
@@ -40,7 +40,7 @@ percent_change = math.floor(abs(yesterday_close - prior_day_close) / prior_day_c
 
 def get_news():
     parameters = {
-    'apiKey': 'b4708682559045a59a35b8332d33947e',
+    'apiKey': '***************',
     'q': COMPANY_NAME,
     }
     # X-Api-Key: 'b4708682559045a59a35b8332d33947e'
@@ -52,12 +52,12 @@ def get_news():
     for article in data:
         headline = article['title']
         brief = article['description']
-        client = Client('AC4611735F4AE264F7C3DFCA2453999C3C', 'ccd24ae8e7a3208e1a682cd55d609af2')
+        client = Client('*********', '*************')
         message = client.messages \
             .create(
             body=f'{STOCK}\nHeadline: {headline}\n Brief: {brief}',
             from_='+19892600339',
-            to='+18457219250'
+            to='+************'
         )
         print(message.status)
 
