@@ -7,9 +7,9 @@ PROMISED_DOWN = 150
 PROMISED_UP = 10
 
 TWITTER_URL = 'https://twitter.com/?logout=1624085788294'
-TWITTER_EMAIL = 'supersonicboom17@yahoo.com'
-TWITTER_USERNAME = 'rpy22918593'
-TWITTER_PW = 'ShakeWaitmp4'
+TWITTER_EMAIL = '****************'
+TWITTER_USERNAME = '**********'
+TWITTER_PW = '*****************4'
 
 CHROME_DRIVER_PATH = 'C:/Python/Udemy 100 Days of Code/chromedriver'
 
