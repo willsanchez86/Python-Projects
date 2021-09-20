@@ -3,10 +3,10 @@ from twilio.rest import Client
 
 MY_LAT = 40.42118 # Your latitude
 MY_LONG = -79.788102 # Your longitude
-API_KEY = '4ac4c7947814d80d77dbeeb056a51faa'
+API_KEY = '********************'
 
-acct_sid = 'AC4611735F4AE264F7C3DFCA2453999C3C'
-auth_token = 'ccd24ae8e7a3208e1a682cd55d609af2'
+acct_sid = '***************************'
+auth_token = '************************'
 
 parameters = {
     'lat': MY_LAT,
@@ -34,8 +34,8 @@ if will_rain:
     message = client.messages \
         .create(
         body='BRING AN UMBRELLA!',
-        from_='+19892600339',
-        to='+18457219250'
+        from_='+***********',
+        to='+**********'
     )
     print(message.status)
 
