@@ -4,8 +4,8 @@ import datetime as dt
 import pandas as pd
 import random
 
-MY_EMAIL = 'runpyure@gmail.com'
-PASSWORD = 'Newpickle10'
+MY_EMAIL = '*******'
+PASSWORD = '**********'
 
 TODAY = dt.date.today()
 CURRENT_MONTH = TODAY.month
